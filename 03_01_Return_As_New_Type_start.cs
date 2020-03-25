@@ -83,6 +83,21 @@ namespace LINQ_Examples
                 Console.WriteLine("Customer from Georgia State  {0}, {1}", c.Name, c.Purchase);
 
 
+            //Console.ReadKey();
+
+            Console.WriteLine("============Exercise 2 ===============");
+            Console.WriteLine("Customer purchase Bulb 23W");
+            Console.WriteLine("=======================================");
+
+
+            var bulb = from c in customers
+                       from p in c.Purchases
+                       where p == "Bulb 23W"
+                       select new { FName = c.First, LName = c.Last };
+
+            foreach (var c in bulb)
+                Console.WriteLine("{0}, {1}", c.FName, c.LName);
+
             Console.ReadKey();
         }
     }
