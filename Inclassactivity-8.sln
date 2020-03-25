@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_01_Return_As_New_Type_start", "LINQ_Examples\03_01_Return_As_New_Type_start.csproj", "{80622FE4-CFEE-4823-BD30-4A3AAEC65865}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "class-8-linq", "LINQ_Examples\class-8-linq.csproj", "{80622FE4-CFEE-4823-BD30-4A3AAEC65865}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05989EF6-A813-4023-8AB9-BF998CAE212F}
 	EndGlobalSection
 EndGlobal
